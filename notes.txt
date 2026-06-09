@@ -1,0 +1,5 @@
+TOPICS LEARNT
+
+- import/export , module type 
+- components (reusables)
+- props drilling (passing data from parent to children) -> customize components
