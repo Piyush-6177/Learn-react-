@@ -1,5 +1,6 @@
 TOPICS LEARNT
 
-- import/export , module type 
+- import/export(default and named) , module type in script tag
 - components (reusables)
 - props drilling (passing data from parent to children) -> customize components
+- passing data in the form of objects (JSON format)
