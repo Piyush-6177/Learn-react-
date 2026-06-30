@@ -1,0 +1,8 @@
+.btn{
+    background-color: orchid;
+    border: 2px solid rgb(149, 14, 128);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}

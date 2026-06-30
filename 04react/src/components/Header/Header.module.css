@@ -1,0 +1,17 @@
+.body{
+    display: flex;
+    gap: 20px ;
+    align-items: center;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 5px;
+}
+
+.btn{
+    background-color: rgb(173, 87, 121);
+    border: 2px solid rgb(62, 48, 21);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}

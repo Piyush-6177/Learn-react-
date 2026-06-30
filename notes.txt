@@ -4,3 +4,4 @@ TOPICS LEARNT
 - components (reusables)
 - props drilling (passing data from parent to children) -> customize components
 - passing data in the form of objects (JSON format)
+- modular css file so each component has its own independent css script 

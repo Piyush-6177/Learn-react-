@@ -1,7 +1,6 @@
 // JS prerequisites for react 
 
-// ====================================================================
-// object destructuring 
+// object destructuring ====================================================================
 
 // const user = {
 //     id : 100,
@@ -15,9 +14,8 @@
     
 // console.log(username,age,id) 
 
-// ====================================================================
 
-// array destructuring 
+// array destructuring ====================================================================
 
 // Since arrays are ordered lists, 
 // JavaScript unpacks the elements sequentially
@@ -27,9 +25,8 @@
 // const [marks, percentage] = arr
 // console.log(marks, percentage);
 
-// ====================================================================
 
-// template literals 
+// template literals ====================================================================
 
 // const product = 'Guitar'
 // const price = '₹8000'
@@ -38,10 +35,31 @@
 // console.log(message);
 
 // ** Template literals also preserve line breaks natively without needing \n
-const multiLine = `
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
-`;
-console.log(multiLine);
+// const multiLine = `
+//   <ul>
+//     <li>Item 1</li>
+//     <li>Item 2</li>
+//   </ul>
+// `;
+// console.log(multiLine);
+
+
+// fetch API request ====================================================================
+
+// async function getData(){
+//     const url = `https://jsonplaceholder.typicode.com/posts/1`
+
+//     const response = await fetch(url)
+
+//     if(!response.ok){
+//         console.log(`HTTP error ! Status : ${data_response.status}`)
+//         return 
+//     }
+
+//     const data = await response.json()
+    
+//     const {title,body} = data
+//     console.log(`Title : ${title} \nBody : ${body}`);
+    
+// }
+// getData()
