@@ -1,9 +1,15 @@
-import React from 'react'
+import RightCard from "./RightCard";
 
-const RightContent = () => {
+const RightContent = (props) => {
   return (
-    <div className='w-3/4 h-full bg-blue-700'>RightContent</div>
-  )
-}
+    <div className="flex px-5 py-5 gap-5 w-2/3 h-full overflow-x-auto no-scrollbar">
 
-export default RightContent
+      {props.users.map(function (elem,idx) {
+        return <RightCard idx={idx+1} img={elem.img} intro={elem.intro} tag={elem.tag} />;
+      })}
+
+    </div>
+  );
+};
+
+export default RightContent;
