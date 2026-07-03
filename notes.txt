@@ -5,3 +5,18 @@ TOPICS LEARNT
 - props drilling (passing data from parent to children) -> customize components
 - passing data in the form of objects (JSON format)
 - modular css file so each component has its own independent css script 
+- creating a react-based website ui using basic react learnt till now 
+- how to call funtions in react (3 ways calling inside another function was focused)
+- using functions to trigger events or ui changes 
+- useState to build a counter 
+
+
+
+REACT HOOKS 
+
+> useState : to manage state 
+> useEffect : to handle side effects (like API call, DOM manipulation, event listener)
+> useContext : to consume global state with props drilling
+> useReducer : for complex state management (like small version of Redux)
+> useRef : to hold mutable values so that they don't trigger re-rendering, or to access DOM
+> useMemo & useCallback : for optimization, to avoid unnecessary re-renders 
