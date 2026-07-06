@@ -17,6 +17,13 @@ const App = () => {
     setNum(num/2)
   }
 
+  // batch update
+  // function increase(){
+  //   setNum(prev => prev + 1)
+  //   setNum(prev => prev + 1)
+  //   setNum(prev => prev + 1)
+  // }
+
   return (
     <div>
       <div className="counter">

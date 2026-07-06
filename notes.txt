@@ -6,9 +6,28 @@ TOPICS LEARNT
 - passing data in the form of objects (JSON format)
 - modular css file so each component has its own independent css script 
 - creating a react-based website ui using basic react learnt till now 
+
 - how to call funtions in react (3 ways calling inside another function was focused)
 - using functions to trigger events or ui changes 
+
 - useState to build a counter 
+- destructuring (makes a copy and doesn't share same reference as original)
+- batch updates in react (e.g. increase by 1 func called thrice but worked once only)
+
+- form handling in react (preventing form's default page refreshing behaviour, 
+  using react to change input field's value via useState instead of changing it directly)
+  This is also known as two-way data binding
+
+
+
+
+
+
+
+
+
+
+
 
 
 
