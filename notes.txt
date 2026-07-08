@@ -1,6 +1,6 @@
 TOPICS LEARNT
 
-- import/export(default and named) , module type in script tag
+- import/export(default and named), module type in script tag
 - components (reusables)
 - props drilling (passing data from parent to children) -> customize components
 - passing data in the form of objects (JSON format)
@@ -18,7 +18,12 @@ TOPICS LEARNT
   using react to change input field's value via useState instead of changing it directly)
   This is also known as two-way data binding
 
+- creating notes app (react + tailwindcss)
+- passing and displaying data present in the form of array of objects
+- adding and deleting a ui component on screen
 
+- localStorage and sessionStorage 
+- localStorage methods
 
 
 
@@ -39,3 +44,10 @@ REACT HOOKS
 > useReducer : for complex state management (like small version of Redux)
 > useRef : to hold mutable values so that they don't trigger re-rendering, or to access DOM
 > useMemo & useCallback : for optimization, to avoid unnecessary re-renders 
+
+
+LOCAL STORAGE METHODS
+> localStorage.setItem()
+> localStorage.clear()
+> localStorage.getItem()
+> localStorage.removeItem()

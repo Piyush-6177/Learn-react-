@@ -1,0 +1,14 @@
+.container{
+  padding: 10px;
+}
+
+.btn{
+  height: 40px;
+  width: 90px;
+  background-color: grey;
+  color: white;
+  border: 1px solid blanchedalmond;
+  padding: 5px;
+  margin: 5px 10px 5px 0px;
+  border-radius: 5px;
+}

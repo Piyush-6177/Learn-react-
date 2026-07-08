@@ -1,0 +1,16 @@
+*{
+  margin: 2px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.btn{
+  height: 40px;
+  width: 90px;
+  padding: 5px;
+  margin: 2px;
+  background-color: rgb(83, 79, 79);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
